@@ -1,0 +1,597 @@
+body{
+    background-color: rgb(242, 244, 247);
+}
+
+/* left-body */
+
+section .left-body{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    line-height: 1px;
+}
+section .left-body h1{
+    color: rgba(	30,144,255);
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section .left-body p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 40px;
+    
+}
+
+/* contnier */
+
+section .contnier{
+    position: relative;
+    top: 150px;
+    left: 60%;
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 380px;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.322);
+}
+section .contnier .inp-one{
+    width: 340px;
+    height: 45px;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+}
+
+section .contnier  .inp-two{
+    width: 340px;
+    height: 45px;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+}
+
+section .contnier  .inp-three{
+    position: absolute;
+    top: 170px;
+    left: 25px;  
+    cursor: pointer;
+    width: 355px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(13, 127, 241);
+    
+}
+section .contnier a{
+    color: rgb(13, 127, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 225px;
+    left: 130px;
+    text-decoration:double;
+}
+section .contnier a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 355px;
+    position: absolute;
+    bottom: 95px;
+    left: 20px;
+
+}
+
+section .contnier  .inp-four{
+    position: absolute;
+    top: 80px;
+    left: -10px;
+}
+section .contnier  .inp-four {
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(26, 177, 12);
+}
+section .contnier .inp-four:hover{
+    opacity: .7;
+    
+}
+
+section .foot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 63%;
+    top: 80%;
+}
+section .foot a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+section .foot a:hover{
+    text-decoration: underline;
+
+}
+
+
+/* ________________________ */
+
+.demo{
+    position: absolute;
+    top: 80px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.demo1{
+    position: absolute;
+    top: 80px;
+    left: 215px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.demo2{
+    position: absolute;
+    top: 147px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    z-index: 1;
+}
+.demo3{
+    position: absolute;
+    top: 240px;
+    left: 235px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    z-index: 1;
+}
+.demo4{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    z-index: 1;
+    padding: 10px;
+   
+   
+}
+.demo5{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    z-index: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+form .close-btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 390px;
+    top: 5px;
+    cursor: pointer;
+   
+}
+
+form h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin: 10px;
+
+}
+form p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    margin: 10px;
+}
+
+form .border{
+    border-bottom: rgb(224, 221, 221) 1px solid;
+    width: 100%;
+    
+}
+
+form .inp-one{
+    background-color: #f6f6f6;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    border-radius: 5px;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width: 180px;
+    height: 40px;
+    font-size: 19px;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+
+
+form .inp-two{
+    background-color: #f6f6f6;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    border-radius: 5px;
+    position: absolute;
+    top: 110px;
+    left: 225px;
+    width: 180px;
+    height: 40px;
+    font-size: 19px;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+
+form .inp-three{
+    width: 91%;
+    height: 45px;
+    position: absolute;
+    top: 175px;
+    left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #f6f6f6;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+}
+form .inp-four{
+    width: 91%;
+    height: 45px;
+    position: absolute;
+    top: 235px;
+    left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #f6f6f6;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+}
+
+form .select-day{
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    -webkit-appearance: none;
+    background-color: #ffffff;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    background-image: url(Yrq8Y9PlN02.png);
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding: 0 8px;
+    padding-right: 20px;
+}
+form .select-day option:hover{
+    background-color: w;
+}
+form .select-month{
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    background-color: #ffffff;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    background-image: url(Yrq8Y9PlN02.png);
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding: 0 8px;
+    padding-right: 20px;
+}
+form .select-years{
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    top: 310px;
+    left: 290px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    -webkit-appearance: none;
+    background-color: #ffffff;
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    background-image: url(Yrq8Y9PlN02.png);
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding: 0 8px;
+    padding-right: 20px;
+}
+form img{
+   width: 15px;
+   position: absolute;
+   top: 290px;
+   left: 85px;
+   cursor: pointer;
+}
+
+form .tooltip-Container {
+    visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    color: #5e5e5e;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px 0;
+    position: absolute;
+    top: 280px;
+    right: 370px;
+    z-index: 1;
+    box-shadow: 1px 1px 5px black;
+    font-weight: 500;
+    width: 350px;
+    
+}
+
+form .tooltip-Container span{
+    font-size:14px ;
+    font-weight: bold;
+} 
+
+form .tooltip-Container samp a{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+form .tooltip-Container samp a:hover{
+    text-decoration: underline;
+}
+form .lable{
+    position: absolute;
+    top: 280px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+form .lable2{
+    position: absolute;
+    top: 350px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+form .img2{
+    width: 15px;
+    position: absolute;
+    top: 362px;
+    left: 50px;
+    cursor: pointer;
+}
+
+form .ginder1{
+    border: 1px solid rgb(147, 147, 147);
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    border-radius: 5px;
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    top: 380px;
+    left: 10px;
+    
+}
+form .ginder1  label{
+    align-items: center;
+    padding: 0px 40px 5px 10px;
+    position:relative;
+    top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+    
+}
+form .ginder1 input{
+    align-items: center;
+    padding: 0px 40px 5px 10px;
+    position:relative;
+    top: 9px;
+    
+}
+/* /////////////////////////// */
+
+form .ginder2{
+    border: 1px solid rgb(147, 147, 147);
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    border-radius: 5px;
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    
+}
+
+form .ginder2 label{
+    align-items: center;
+    padding: 0px 55px 5px 10px;
+    position:relative;
+    top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+    
+}
+form .ginder2 input{
+    align-items: center;
+    padding: 0px 40px 5px 10px;
+    position:relative;
+    top: 9px;
+    
+}
+
+/* ////////// */
+
+form .ginder3{
+    border: 1px solid rgb(147, 147, 147);
+    border-color: rgba(126, 123, 123, 0.219);
+    border-top-color: rgba(126, 123, 123, 0.219);
+    border-radius: 5px;
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    top: 380px;
+    left: 290px;
+    
+}
+
+form .ginder3 label{
+    align-items: center;
+    padding: 0px 40px 5px 5px;
+    position:relative;
+    top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+    
+}
+form .ginder3 input{
+    align-items: center;
+    padding: 0px 40px 5px 10px;
+    position:relative;
+    top: 9px;
+    
+}
+
+form .foot {
+    position:relative;
+    top: 330px;
+    left: 0px;
+
+}
+ .foot p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #888;
+
+}
+.foot h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: #888;
+    margin-top: 0px;
+}
+form .foot span a{
+    color: rgba(0, 81, 255, 0.65);
+}
+form .inp-five{
+    position: absolute;
+    top: 530px;
+    left: 115px;
+}
+form .inp-five {
+    cursor: pointer;
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(26, 177, 12);
+    
+}
+form .inp-five:hover{
+    opacity: .7 ;
+   
+
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(255, 255, 255, 0.812); 
+    padding-top: 60px;
+
+}
+  
+.modal-content {
+    box-shadow:0px 1px 10px 1px rgba(174, 173, 173, 0.682);
+    position: relative;
+    left: 33%;
+    background-color: #fefefe;
+    border: 0px solid #888;
+    border-radius: 5px;
+    width: 33%; 
+    height: 85%;
+    
+}
+  
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+  

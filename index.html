@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="facebook.png">
+    <link rel="stylesheet" href="style.css">
+    <title>facebook-login</title>
+</head>
+<body>
+    <section>
+        <div class="left-body">
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share <br> with the people in your life.</p>
+        </div>
+        <form action="https://www.facebook.com">
+        <div class="contnier"  >
+            <p id="validation4" class="demo4"></p>
+            <p id="validation5" class="demo5"></p>
+
+            <input class="inp-one" type="email" placeholder="Email address or phone number"  id="email-phone" required>
+            <input class="inp-two" type="password"  id="passworda" placeholder="Password"   required>
+            <input type="submit" class="inp-three" value="Log in"  onclick="return myFunction()" >
+            <p id="error"></p>
+            <a href="https://en-gb.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" >Forgotten password?</a>
+            <hr>
+            <a> <input type="button" class="inp-four"   onclick="document.getElementById('id01').style.display='block'" style="width:auto;" value="Creat new account" ></a>
+        </div>
+        </form>
+        <p class="foot">  <a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a celebrity, brand or business.</p>
+    </section>
+    <section class="sec2">
+        <div id="id01" class="modal"  >
+            <form  action="https://www.facebook.com" class="modal-content animate" id="close-btn">
+                <p id="validation" class="demo"></p>
+                <p id="validation1" class="demo1"></p>
+                <p id="validation2" class="demo2"></p>
+                <p id="validation3" class="demo3"></p>
+
+                <span class="close-btn"  onclick="closebtn()">&#10005;</span>
+                <h1>Sign Up</h1>
+                <p>It's quick and easy.</p>
+                <div class="border"></div>
+                <input class="inp-one" type="text" placeholder="First name" id="first-name" >
+                <input class="inp-two" type="text" placeholder="Surname" required id="sur-name"  >
+                <input class="inp-three" type="email"  placeholder="Mobile number or Email address " id="email" required>
+                <input class="inp-four" type="password"  placeholder="New password " id="pass"  required>
+                <p class="lable">Date of birth </p>
+                <img id="tooltip" src="question (2).png" alt="">
+                <p class="lable2">Ginder  </p>
+                <img class="img2"  src="question (2).png" alt="">
+                
+                <!-- <p class="tooltip-Container"> <span> Providing your birthday </span> helps make sure that you get <br> the right Facebook experience for your age. If you want <br> to change who sees this, go to the About section of your <br> profile. For more details, please visit our a  <samp> <a href="">Privacy Policy</a></samp></p> -->
+                <select id="number-select" class="select-day">
+                    <option value="" >14</option>
+                </select>
+                
+            <select id="month-select" class="select-month">
+                <option value="">Jun</option>
+            </select>
+            
+            <select id="year-select" class="select-years">
+                <option value="2023">2023</option>
+            </select>
+            <div class="ginder1">
+                <label for="Female">Female</label>
+                <input type="radio" id="Female">
+            </div>
+            <div class="ginder2">
+                <label for="male">Male</label>
+                <input type="radio" id="male">
+            </div>
+            
+            <div class="ginder3">
+                <label for="Custom">Custom</label>
+                <input type="radio" id="Custom">
+            </div>
+            <div  class="foot">
+                <p>People who use our service may have uploaded your contact information to Facebook. <span><a href="https://en-gb.facebook.com/help/637205020878504">Learn more</a></span>.</p>
+                <h6>By clicking Sign Up, you agree to our <span><a href="https://en-gb.facebook.com/legal/terms/update">Terms</a>
+                </span>,  <span><a href="https://en-gb.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0">Privacy Policy</a> 
+                </span>and  <span><a href="https://en-gb.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Cookies Policy</a>
+                </span>. You may receive SMS notifications from us and can opt out at any time.</h6> 
+            </div>
+            <input type="submit" class="inp-five"     onclick="return formValidate()"   value="Sign Up">
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
